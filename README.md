@@ -1,7 +1,7 @@
-<h1 align="center">React Fire-Contact App</h1>
+<h1 align="center">React Recipe App</h1>
 
 <h3>Overview</h3>
-👨‍💻 👨In this project I mastered React skills. I used mainly REACT and Material UI, Bootstrap, Redux, Firebase. You can see visual demo of the website below. The objective is to build out this real-like webpage and make it looking as professional as possible..
+👨‍💻 👨In this project I mastered React skills. I used mainly REACT and Styled Component, React Router. You can see visual demo of the website below. The objective is to build out this real-like webpage and make it looking as professional as possible..
 <hr>
 
 ## ✨ Demo
@@ -20,36 +20,38 @@
 ````
 ## Project Skeleton 
 
-- Contact App (folder)
-|
-|----readme.md         
+Recipe App(folder)
+|----readme.md        
 SOLUTION
 ├── public
 │     └── index.html
 ├── src
+│    ├── assets.js
+│    │     └── images
 │    ├── components
-│    │       ├── Form.jsx
-│    │       └── Table.jsx
-│    ├── redux
-│    │       ├── editAction.js
-│    │       └── editReducer.js
-│    ├       └── index.js
-│    ├── utils
-│    │       ├── firebase.js
-│    │       ├── customToastify.js
-│    │            
+│    │     ├── Header --> Header.jsx | Header.style.jsx
+│    │     ├── Card --> Card.jsx | Cards.jsx  | Card.style.jsx
+│    │     └── Navbar --> Navbar.jsx | Navbar.style.jsx
+│    ├── pages
+│    │     ├── Home--> Home.jsx | Home.style.jsx
+│    │     ├── About --> About.jsx  | About.style.jsx
+│    │     ├── Login --> Login.jsx  | Login.style.jsx
+│    │     ├── Register-->Register.jsx  | Register.style.jsx
+│    │     ├── Details --> Details.jsx  | Details.style.jsx
+│    │     └── Logo.js
+│    ├── router
+│    │     └── AppRouter.jsx │ PrivateRouter.jsx
 │    ├── App.js
+│    ├── App.css
 │    ├── index.js
 │    └── index.css
-├── .env
 ├── package.json
 └── yarn.lock
-```
 ````
 <!-- --------------------------------------- -->
 ### Purpose of Project;
 
-👨‍💻 The main aim of this project is to improve my <b> REACT/Styled Component/JS/git commands (push, pull, commit, add etc.) skills and responsive design abilities.</b>
+👨‍💻  The main aim of this project is to improve my <b>REACT/Styled Component/JS/git commands (push, pull, commit, add etc.) skills and responsive design abilities.</b>
 
 
 ## Objective
@@ -60,11 +62,13 @@ SOLUTION
 
 -HTML / Semantic elements
 
--Material UI - React Toastify - Bootstrap
+-REACT / Components , Props , UseState Hook , UseEffect Hook , Router etc.
 
--REACT / Components , Props , Hooks, Redux etc.
+-Styled Components
 
--Firebase Firestore DB
+-Fetch API
+
+-LocalStorage
 
 ### At the end of the project, i will be able to;
 
@@ -81,7 +85,7 @@ SOLUTION
 <hr>
 <h3>How to Use the Project</h3>
 <span>First download a code editor </span>
-<br><span>Second open the files : </span><a href='https://github.com/AliAksoyy/React-FireContactApp'>My Docs</a>
+<br><span>Second open the files : </span><a href='https://github.com/AliAksoyy/React-Recipe-App'>My Docs</a>
 <br><span>You should open vscode terminal and write "yarn or npm install" to make the project alive </span>
 <br><span>You can use this tutorial : </span><a href='https://www.youtube.com/watch?v=fJEbVCrEMSE'>VS Code tutorial</a>
 
