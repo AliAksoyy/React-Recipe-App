@@ -14,7 +14,7 @@
 
 <hr>
 
-[📍You can see the live site from here!]https://react-recipe-app-nine.vercel.app/)
+[📍You can see the live site from here!](https://react-recipe-app-nine.vercel.app/)
 
 <!-- ------------------------------------------------------ -->
 ````
